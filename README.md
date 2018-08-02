@@ -6,7 +6,7 @@ How to run:
  - Update the constants USERNAME,PASSWORD,VERSION and MIN_MOD_DATE in the script.
  - Download the partner and metadata wsdl from your salesforce org and place them in the same folder as the script.
  - Rename the two wsdls as `partner.wsdl.xml` and `metadata.wsdl.xml`
- - Run the script
+ - Run the script `retrieve.py`
 
 Will retrieve all components of all types that have been channged since the MIN_MOD_DATE set and output a file named package.xml
 
