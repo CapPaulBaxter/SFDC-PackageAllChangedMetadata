@@ -7,6 +7,7 @@ USERNAME = 'USERNAME'
 PASSWORD = 'PASSWORD'
 VERSION  = 43.0
 MIN_MOD_DATE =  datetime.datetime(2018,6,1, tzinfo=datetime.timezone.utc)
+USE_CHILD_OBJECTS = False
 
 fileMissing = False
 for requiredfile in ['partner.wsdl.xml','metadata.wsdl.xml']:
@@ -39,7 +40,7 @@ for metaDataType in metadataDescription.metadataObjects:
 
 
 
-  if len(metaDataType.childXmlNames) > 0:  
+  if len(metaDataType.childXmlNames) > 0 and USE_CHILD_OBJECTS:
     for childXmlName in metaDataType.childXmlNames:
       namedTypes.append(childXmlName)
   else:
