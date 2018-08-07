@@ -10,6 +10,8 @@ How to run:
 
 Will retrieve all components of all types that have been channged since the MIN_MOD_DATE set and output a file named package.xml
 
+If USE_CHILD_OBJECTS is True childxml constituents of compound objects will be retrieved and checked independently, otherwise only the top level compound objects will be checked and retrieved.
+
 Output is separated by comments listing the most recent change date and person who changed the component, grouped by name and day.
 
 Output looks like:
