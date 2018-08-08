@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+metadata\.wsdl\.xml
+
+package\.xml
+
+partner\.wsdl\.xml
