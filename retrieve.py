@@ -7,7 +7,7 @@ USERNAME = 'USERNAME'
 PASSWORD = 'PASSWORD'
 VERSION  = 43.0
 MIN_MOD_DATE =  datetime.datetime(2018,6,1, tzinfo=datetime.timezone.utc)
-INDIVIDUAL_CHILD_ELEMENTS = False
+INDIVIDUAL_CHILD_ELEMENTS = True
 USERS_TO_IGNORE = set(['FSL','SBQQ'])
 
 
